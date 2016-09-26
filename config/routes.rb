@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'sessions/index'
+
   devise_scope :user do
     root to: "devise/sessions#new"
   end

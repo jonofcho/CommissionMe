@@ -7,8 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-  <%= yield %>
-
+  <%if sessions_index = true%>
+  <%= render "/partials/sessions_header"%>
+  <%end%>
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
