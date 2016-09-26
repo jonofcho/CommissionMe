@@ -2,7 +2,10 @@ class RegistrationsController < Devise::RegistrationsController
   before_filter :configure_permitted_parameters, :only => [:create]
 
   def after_sign_up_path_for(resource)
-    chongdae_path
+    current_user
+  end
+  def index
+
   end
   protected
 
