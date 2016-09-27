@@ -1,37 +1,35 @@
-<div class="section-2">
-  <div class="section-3">
-    <div class="contents">
-      <div class="secondary_form" id="register">
-        <form class="" action="index.html" method="post">
-          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-          <div class="">
-            <label>Field</label>
-            <input type="text" name="skill[field]" value="">
-          </div>
-          <div class="">
-            <label>Job Position/Title</label>
-            <input type="text" name="skill[title]" value="">
-          </div>
-          <div class="">
-            <label>Years Of Experience</label>
-            <input type="date" name="skill[start_date]" value="">
-            <input type="date" name="skill[end_date]" value="">
-          </div>
-          <div class="">
-            <label>Comment/Optional*</label>
-            <input type="text" name="skill[comment]" value="">
-          </div>
-          <div class="">
-            <label>Upload Portfolio, Resume, blog,Pictures of past work,etc/Optional*</label>
-            <input type="file" name="skill[resume]" value="">
-            <input type="file" name="skill[resume]" value="">
-            <input type="file" name="skill[resume]" value="">
-          </div>
-          <div class="">
-            <input type="submit" name="" value="Next">
-          </div>
-        </form>
-      </div>
+<div class="reg-2">
+  <div class="reg-3">
+    <div class="secondary_form">
+      <form class="" action="index.html" method="post">
+        <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+        <div class="">
+          <label>Field</label>
+          <input type="text" name="skill[field]" value="">
+        </div>
+        <div class="">
+          <label>Job Position/Title</label>
+          <input type="text" name="skill[title]" value="">
+        </div>
+        <div class="">
+          <label>Years Of Experience</label>
+          <input type="date" name="skill[start_date]" value="">
+          <input type="date" name="skill[end_date]" value="">
+        </div>
+        <div class="">
+          <label>Comment/Optional*</label>
+          <input type="text" name="skill[comment]" value="">
+        </div>
+        <div class="">
+          <label>Upload Portfolio, Resume, blog,Pictures of past work,etc/Optional*</label>
+          <input id="resume" type="file" name="skill[resume]" value="">
+          <input id="resume" type="file" name="skill[resume]" value="">
+          <input id="resume" type="file" name="skill[resume]" value="">
+        </div>
+        <div id="next" class="center-align">
+          <input type="submit" name="" value="Next">
+        </div>
+      </form>
     </div>
   </div>
 </div>

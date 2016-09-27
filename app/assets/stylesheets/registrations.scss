@@ -1,3 +1,35 @@
 // Place all the styles related to the registrations controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.reg-2{
+  padding: 30px;
+  .reg-3{
+    background-color: #424242;
+    padding: 60px 30px 30px 30px;
+    .secondary_form{
+      margin: 0 auto;
+      width: 98%;
+      background-color: #F5F2F0;
+      form{
+        padding: 5%;
+        #resume{
+          display: block;
+        }
+        #next{
+          margin-top: 50px;
+          input{
+            width: 100px;
+            height: 40px;
+          }
+        }
+      }
+      a{
+        margin-right: 100px;
+        background-color: black;
+        height: 125px;
+        width: 125px;
+        border-radius: 25%;
+      }
+    }
+  }
+}
