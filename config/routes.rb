@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
 
+  get 'skills/index'
+
+  get 'skills/update'
+
+  get 'skills/edit'
+
+  get 'skills/show'
+
   devise_scope :user do
     root to: "devise/sessions#new"
   end
@@ -7,6 +15,7 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => { :registrations => "registrations" }
 
   resources:users
+  resources:skills
 
   get '/second' => 'users#second'
 
