@@ -10,9 +10,14 @@
   <%unless @sessions_index == true%>
    <%=render "/partials/sessions_header"%>
   <%end%>
+  <%unless @users_index == true%>
+   <%=render "/partials/users_header"%>
+  <%end%>
   <div class="container">
-    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
     <%= yield %>
   </div>
 </body>
+<script type="text/javascript">
+  $(".button-collapse").sideNav();
+</script>
 </html>

@@ -1,3 +1,4 @@
+// Sessions_header
 .sessions_nav{
   padding-left: 72px;
   padding-right: 72px;
@@ -10,6 +11,30 @@
     input{
       height: 30px;
       margin-left: 10px;
+    }
+  }
+}
+
+// #users_headers
+.nav-wrapper{
+  h1{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+  }
+  .nav-buttons{
+    margin-left: 500px;
+    vertical-align: bottom;
+    display:inline-block;
+
+    .users-buttons{
+
+      display: inline-block;
+      a{
+        display: inline-block;
+        height: 30px;
+      }
     }
   }
 }
