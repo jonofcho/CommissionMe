@@ -35,7 +35,6 @@
       }
       .friends{
         padding: 5% 5% 5% 9.5%;
-
         .row{
           align-items: center;
           .friend-filler{
@@ -66,10 +65,11 @@
       height: 20px;
     }
     .people-share{
+      justify-content: space-between;
       height: 168.5px;
+      border: .5px solid black;
       .friends{
-        
-        border: .5px solid black;
+        padding: 2% 5% 5% 9.5%;
         .row{
           align-items: center;
           .friend-filler{
