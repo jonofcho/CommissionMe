@@ -11,8 +11,19 @@
     input{
       height: 30px;
       margin-left: 10px;
+      background-color: white;
+      border-radius: 2%;
     }
   }
+}
+h2{
+  display: inline-block;
+}
+.login{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.78rem;
+  float: right;
 }
 
 // #users_headers

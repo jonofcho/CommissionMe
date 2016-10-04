@@ -2,7 +2,7 @@
   padding: 30px;
   .section-3{
     background-color: #424242;
-    padding: 60px 30px 30px 30px;
+    padding: 40px 30px 30px 30px;
 
     .contents{
       margin: 0 auto;
@@ -32,6 +32,11 @@
 #register{
   float: right;
   padding: 0 20px 20px 20px;
+  input{
+    background: white;
+    border-radius: 5%;
+  }
+
 }
 footer{
   background-color: #F5F2F0;

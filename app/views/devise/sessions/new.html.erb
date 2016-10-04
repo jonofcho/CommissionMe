@@ -1,8 +1,9 @@
+<%@users_index = true%>
 <div class="section-2">
   <div class="section-3">
     <div class="contents">
       <div class="content">
-        <%@users_index = true%>
+
       </div>
       <div class="content" id="register">
         <h2>Sign up</h2>
@@ -42,13 +43,10 @@
             <%= f.label :password_confirmation %><br />
             <%= f.password_field :password_confirmation, autocomplete: "off" %>
           </div>
-
           <div class="actions">
             <%= f.submit "Sign up" %>
           </div>
         <% end %>
-
-        <%= render "devise/shared/links" %>
       </div>
     </div>
     <div class="greeting">
