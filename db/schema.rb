@@ -22,20 +22,8 @@ ActiveRecord::Schema.define(version: 20160927224649) do
     t.date     "start_date"
     t.date     "end_date"
     t.text     "comment"
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
-    t.string   "resume_one_file_name"
-    t.string   "resume_one_content_type"
-    t.integer  "resume_one_file_size"
-    t.datetime "resume_one_updated_at"
-    t.string   "resume_two_file_name"
-    t.string   "resume_two_content_type"
-    t.integer  "resume_two_file_size"
-    t.datetime "resume_two_updated_at"
-    t.string   "resume_three_file_name"
-    t.string   "resume_three_content_type"
-    t.integer  "resume_three_file_size"
-    t.datetime "resume_three_updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.integer  "user_id"
   end
 
