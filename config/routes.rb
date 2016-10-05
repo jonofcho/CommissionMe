@@ -1,12 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'skills/index'
-
-  get 'skills/update'
-
-  get 'skills/edit'
-
-  get 'skills/show'
 
   devise_scope :user do
     root to: "devise/sessions#new"
@@ -18,6 +11,8 @@ Rails.application.routes.draw do
   resources:skills
 
   get '/second' => 'users#second'
+  get '/finder' => 'sessions#finder'
+  get '/dreamer' => 'sessions#dreamer'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
